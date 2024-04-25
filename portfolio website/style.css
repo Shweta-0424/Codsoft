@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main {
+    margin: 20px 0;
+}
+
+.intro, .about, .portfolio, .skills, .contact {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.buttons {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #50b3a2;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #399782;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    flex: 1 1 200px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills ul li {
+    background: #ddd;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.contact p {
+    margin-bottom: 10px;
+}
+
+.contact a {
+    color: #50b3a2;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}

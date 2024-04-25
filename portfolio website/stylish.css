@@ -1,0 +1,119 @@
+@import url("https://use.typekit.net/ior2obe.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: rgb(244, 75, 8);
+    width: 350px;
+    font-family: "playfair-display", serif;
+    height: 110vh;
+}
+
+.sidebar nav {
+    padding: 17px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size:20px;
+    padding: 30px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    background-image: url('./shweta.png');
+    background-size: cover;
+    background-position: center;
+    width: 90vw;
+    height: 50vh; /* Set the height to 50% of the viewport height */
+}
+
+.infoContainer {
+    height: 55vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.DevInfo {
+    width: 40vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "cormorant-sc", sans-serif;
+    color:white;
+}
+
+.Hello {
+    font-size: 40px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "playfair-display", serif;
+}
+
+.Programmer {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "cormorant-sc", sans-serif;
+}
+
+.about {
+    padding-top: 30px;
+    margin-left: -50px; 
+    color:black;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.moreabout {
+    margin-top: 2px;
+    font-size: 15px;
+}
+
+.buttons {
+    padding: 9px;
+}
+
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: orangered;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: orangered;
+}
+
+.Dev img {
+    position:absolute;
+    display:flex;
+    top:55%;
+    border:3px solid rgb(255, 0, 85);
+    left:24%;
+    size-adjust: 20vh;
+    height: 22vh;
+    width: 22vh;
+    border-radius: 50%;
+}
